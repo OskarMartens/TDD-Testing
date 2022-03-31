@@ -28,8 +28,8 @@ public class SeleniumTest {
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getTitle());
 
-        WebElement playerName = driver.findElement(By.name("player_name"));
-        WebElement endGame = driver.findElement(By.name("formButton"));
+        WebElement playerName = driver.findElement(By.id("player_name"));
+        WebElement endGame = driver.findElement(By.id("formButton"));
 
         playerName.sendKeys("Oskar");
         /*endGame.click();*/
