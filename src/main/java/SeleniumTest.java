@@ -32,7 +32,7 @@ public class SeleniumTest {
         WebElement endGame = driver.findElement(By.id("formButton"));
 
         playerName.sendKeys("Oskar");
-        /*endGame.click();*/
+        endGame.click();
     }
 
 }
