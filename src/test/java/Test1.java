@@ -14,7 +14,7 @@ public class Test1 {
     @RepeatedTest(100)
     public void testDiceAverage(){
         int amountOfThrows = 10000;
-        Assertions.assertEquals(7, Lab1.diceAverage(amountOfThrows), 0.01);
+        Assertions.assertEquals(7, Lab1.diceAverage(amountOfThrows), 0.5);
     }
 
     @Test
