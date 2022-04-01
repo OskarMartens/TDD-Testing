@@ -21,9 +21,9 @@ public class Test1 {
     public void testThreeForTwo(){
         int amountOfCans = 3;
         double pricePerCan = 9.75;
-        double cost = (amountOfCans * pricePerCan) * 2/3;
+        double costForTwo = pricePerCan * 2;
 
-        Assertions.assertEquals(cost, Lab2.canCost(amountOfCans, pricePerCan), 0);
+        Assertions.assertEquals(costForTwo, Lab2.canCost(amountOfCans, pricePerCan), 0);
     }
 
 
